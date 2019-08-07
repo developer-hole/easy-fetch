@@ -1,0 +1,17 @@
+{
+  "name": "easy-fetch",
+  "version": "0.0.1",
+  "description": "A node-js wrapper with chainable functions",
+  "main": "./dist/index.js",
+  "types": "./dist/typings/index.d.ts",
+  "repository": "https://github.com/developer-hole/easy-fetch.git",
+  "author": "Anish Shobith <anish.shobith19@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.0"
+  }
+}
