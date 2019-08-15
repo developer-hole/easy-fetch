@@ -5,7 +5,7 @@
 ```ts
 import { Request: { get, post } } from 'easy-fetch';
 
-get('https://google.com)
+get('https://google.com')
     .then(res => console.log(res.boy))
     .catch(console.error)
 
