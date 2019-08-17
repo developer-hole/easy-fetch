@@ -6,7 +6,7 @@
 import { Request: { get, post } } from 'easy-fetch';
 
 get('https://google.com')
-    .then(res => console.log(res.boy))
+    .then(res => console.log(res.body))
     .catch(console.error)
 
 post('https://google.com')
